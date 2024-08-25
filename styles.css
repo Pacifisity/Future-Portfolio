@@ -1,0 +1,105 @@
+/* frame */
+body {
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* nav */
+nav {
+    position: absolute;
+    background: none;
+    display: flex;
+
+    width: 100vw;
+    height: 10vh;
+    border-bottom: 1px dotted white;
+}
+
+#logo {
+    width: 50%;
+}
+
+#logo img {
+    width: 9vh;
+    margin: 0.2vh;
+    align-self: center;
+
+    border-radius: 100%;
+    border: 0.3vh solid black;
+}
+
+#navigation {
+    width: 50%;
+    display: flex;
+
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom-left-radius: 25px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    width: 25%;
+    height: 100%;
+}
+
+.button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+
+    border-radius: 100px;
+    border-right: 5px dotted black;
+    border-left: 5px dotted black;
+
+    width: 50%;
+    height: 5vh;
+}
+
+/* content */
+#impression {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#name {
+    width: 50%;
+
+    font-size: 100px;
+}
+
+#description {
+    width: 50%;
+    text-align: left;
+
+    font-size: 30px;
+}
+.body-container {
+    width: 100vw;
+    height: 50vh;
+}
+
+.body-container:nth-child(odd) {
+    background-color: black;
+}
+
+.body-container:nth-child(even) {
+    background-color: white;
+}
