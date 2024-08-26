@@ -72,6 +72,10 @@ nav {
     height: 5vh;
 }
 
+.button a img {
+    width: 40px;
+}
+
 /* content */
 #impression {
     display: flex;
@@ -103,4 +107,18 @@ nav {
 
 .body-container:nth-child(even) {
     background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+    #logo {
+        width: 25%;
+    }
+
+    #navigation {
+        width: 75%;
+    }
+
+    .button a img {
+        width: 25px;
+    }
 }
