@@ -68,6 +68,7 @@ nav {
     border-left: 5px dotted black;
 
     width: 50%;
+    min-width: 75px;
     height: 5vh;
 }
 
