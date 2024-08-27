@@ -34,6 +34,7 @@ nav {
 
     font-size: 25px;
     text-align: center;
+    transition: all 1s ease;
 }
 
 #navigation {
@@ -78,7 +79,6 @@ nav {
     box-shadow: 0 0px 10px 10px black;
 
     color: white;
-
     transition: all 1s ease;
 }
 
@@ -90,7 +90,6 @@ nav {
     box-shadow: 0 0px 10px 5px white;
 
     color: black;
-
     transition: all 1s ease;
 }
 
