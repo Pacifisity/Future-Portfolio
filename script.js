@@ -12,9 +12,6 @@ window.addEventListener('scroll', () => {
     var calcContainer = (Math.floor(scrollPosition / ((viewportHeight)/2)) % 2)
 
     if (calcContainer === 1) {
-        // navbar.style.backgroundColor = 'white';
-        // navbar.style.boxShadow = '0 0px 10px 5px white';
-
         name.style.color = 'white';
 
         Array.from(navButtons).forEach(button => {
@@ -28,9 +25,6 @@ window.addEventListener('scroll', () => {
         });
 
     } else {
-        // navbar.style.backgroundColor = 'black';
-        // navbar.style.boxShadow = '0 0px 10px 10px black'
-
         name.style.color = 'black';
         
         Array.from(navButtons).forEach(button => {

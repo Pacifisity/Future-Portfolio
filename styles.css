@@ -29,7 +29,7 @@ nav {
 }
 
 #name {
-    color: white;
+    color: black;
     width: 50%;
 
     font-size: 25px;
@@ -95,20 +95,6 @@ nav {
 }
 
 /* content */
-#impression {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#description {
-    width: 100%;
-    text-align: center;
-
-    font-size: 30px;
-}
-
 .body-container {
     transform: translateY(-10vh);
     position: relative;
@@ -125,6 +111,47 @@ nav {
     box-shadow: 0 0 10px 10px black inset;
 }
 
+#impression {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#description {
+    width: 100%;
+    text-align: center;
+
+    font-size: 30px;
+}
+
+#work {
+    display: flex;
+}
+
+.work-cards {
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 50px;
+    box-shadow: 0 0 25px 5px white inset;
+
+    height: 45vh;
+    width: 30vw;
+
+    margin: auto;
+
+    color: white;
+}
+
+.work-cards p {
+    height: 36vh;
+    width: 24vw;
+
+    margin-top: 4.5vh;
+    margin-bottom: 4.5vh;
+    margin-left: 5.3vh;
+    margin-right: 5.3vh;
+}
 @media screen and (max-width: 900px) {
     #logo {
         width: 25%;
